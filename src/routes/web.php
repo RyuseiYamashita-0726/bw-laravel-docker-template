@@ -11,6 +11,4 @@
 |
 */
 
-Route::get('/todo', function () {
-    echo 'HelloWorld!';
-});
+Route::get('/todo', 'TodoController@index');
